@@ -1,2 +1,2 @@
-# Portfolio_v2
-Created with CodeSandbox
+# --Explosion--'s portolio!
+Hi there! This is my new portfolio site! Enjoy!
