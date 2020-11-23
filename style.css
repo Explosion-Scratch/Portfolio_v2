@@ -55,7 +55,7 @@ section:not(:first-of-type) {
   line-height: 1.5em;
 }
 .banner h2 span {
-  font-size: 1.5em;
+  font-size: 12vmin;
   font-weight: 700;
 }
 
