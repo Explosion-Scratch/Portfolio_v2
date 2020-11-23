@@ -198,17 +198,18 @@ img {
 .iconify {
   font-size: 50px;
 }
+
 .work .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  width: fit-content;
 }
-.work .content .workBx {
-  width: 50%;
-  padding: 20px;
-}
-.work .content .workBx img {
-  max-width: 100%;
+.work .content img {
+  width: 80vmin;
+  min-width: 200px;
+  max-width: 400px;
+  margin: 1vmin;
 }
 .contact {
   background: var(--background);
@@ -300,10 +301,12 @@ img {
     transition-property: color, background-color;
   }
   header:not(.sticky) ul *,
-  header:not(.sticky) ul,
-  header:not(.sticky) {
+  header:not(.sticky) ul {
     color: var(--light);
     background-color: #101010;
+  }
+  header:not(.sticky) {
+    background-color: #10101099;
   }
   .menu {
     position: fixed;
