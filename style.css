@@ -35,7 +35,6 @@ section {
   font-size: 2em;
   color: var(--light);
   font-weight: 500;
-  line-height: 1.5em;
 }
 .banner h2 span {
   font-size: 12vmin;
@@ -282,10 +281,10 @@ img {
   color: var(--accents);
   margin-bottom: 0;
 }
-
 #copyright {
-  padding: 10px;
-  font-weight: 300;
+  position: relative;
+  top: 50px;
+  color: rgb(151, 151, 151);
 }
 /* Responsiveness */
 @media (max-width: 991px) {
