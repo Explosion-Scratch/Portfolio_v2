@@ -17,24 +17,8 @@
 }
 
 section {
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 88% 98%, 57% 94%, 27% 99%, 0 97%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 95%, 88% 98%, 57% 94%, 27% 99%, 0 97%); */
   padding: 10vw;
-}
-section:not(:first-of-type) {
-  clip-path: polygon(
-    0 1%,
-    28% 0,
-    46% 2%,
-    81% 3%,
-    100% 0,
-    100% 15%,
-    100% 100%,
-    81% 99%,
-    58% 100%,
-    32% 98%,
-    0 100%,
-    0% 85%
-  );
 }
 .banner {
   position: relative;
