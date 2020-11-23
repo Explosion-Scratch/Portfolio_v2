@@ -362,4 +362,7 @@ img {
   .contactInfo {
     display: none;
   }
+  .menu {
+    width: 100%;
+  }
 }
