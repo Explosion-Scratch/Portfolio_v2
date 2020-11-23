@@ -110,7 +110,7 @@ header.sticky .logo {
 
 header .logo {
   color: var(--light);
-  font-size: 24px;
+  font-size: 6vmin;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
