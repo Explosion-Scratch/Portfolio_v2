@@ -161,8 +161,10 @@ header.sticky ul li a {
   font-size: 24px;
   margin-bottom: 10px;
 }
-.w50 {
-  min-width: 50%;
+.w50 img {
+  width: 200px;
+  min-width: 150px;
+  max-width: 400px;
 }
 img {
   max-width: 100%;
