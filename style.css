@@ -145,9 +145,14 @@ header.sticky ul li a {
   font-weight: 600;
   font-size: 30px;
 }
-.content {
-  display: flex;
-  justify-content: space-between;
+.about .content,
+.services .heading p,
+.work .heading p,
+.contact .content, .contact p {
+  display: block;
+  margin: 0 auto;
+  width: 60vw;
+  max-width: 700px;
 }
 .contentBx {
   padding-right: 30px;
@@ -170,6 +175,10 @@ img {
 .heading.white {
   color: var(--light);
 }
+.heading h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
 .services .content {
   display: flex;
   justify-content: center;
@@ -189,7 +198,7 @@ img {
   background: var(--accents);
 }
 .services .content .servicesBx h2 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 }
 .iconify {
@@ -358,9 +367,9 @@ img {
   section {
     clip-path: none !important;
   }
-  .contactInfo {
+  /* .contactInfo {
     display: none;
-  }
+  } */
   .menu {
     width: 100%;
   }
